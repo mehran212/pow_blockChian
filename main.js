@@ -10,7 +10,7 @@ class Transaction{
 }
 
 class Block{
-    constructor(timeStamp, transactions, previousHash = '', blockNumber){
+    constructor(timeStamp, transactions, previousHash = '', blockNumber = 0){
         this.timeStamp = timeStamp;
         this.transactions = transactions;
         this.previousHash = previousHash;
